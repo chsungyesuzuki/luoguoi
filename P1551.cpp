@@ -3,7 +3,7 @@ using namespace std;
 struct uni{
 	int a[5005];
 	uni(){
-		for(int i=0;i!=5000;i++){
+		for(int i=0;i!=5005;i++){
 			a[i]=i;
 		}
 	}
