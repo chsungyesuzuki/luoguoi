@@ -3,7 +3,8 @@ using namespace std;
 
 int main()
 {
-    long last,i,j,counter,target;
+	int last,target,i,j;
+    long long counter=0;
     cin>>last>>target;
     for(i=1;i<=last;i++){
         j=i;
