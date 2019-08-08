@@ -16,7 +16,7 @@ struct High{
 	int &operator[](int index){
 		return value[index];
 	}
-	void flatten(int newLength){//TODO:There is an unknown bug
+	void flatten(int newLength){
 		length=newLength;
 		for(int i=1;i<=length;i++){
 			value[i+1]=value[i+1]+value[i]/10;
